@@ -1,6 +1,5 @@
 package mate.academy.book_online_store;
 
-import java.math.BigDecimal;
 import lombok.RequiredArgsConstructor;
 import mate.academy.book_online_store.model.Book;
 import mate.academy.book_online_store.service.BookService;
@@ -9,11 +8,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import java.math.BigDecimal;
+
 @SpringBootApplication
 @RequiredArgsConstructor
 public class BookOnlineStoreApplication {
     private final BookService bookService;
-
 
     public static void main(String[] args) {
 

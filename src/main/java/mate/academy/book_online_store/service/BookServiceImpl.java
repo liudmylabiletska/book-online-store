@@ -6,7 +6,6 @@ import mate.academy.book_online_store.model.Book;
 import mate.academy.book_online_store.repository.BookRepository;
 import org.springframework.stereotype.Service;
 
-
 @Service
 @RequiredArgsConstructor
 public class BookServiceImpl implements BookService {
