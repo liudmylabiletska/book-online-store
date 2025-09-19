@@ -14,6 +14,7 @@ import org.springframework.context.annotation.Bean;
 public class BookOnlineStoreApplication {
     private final BookService bookService;
 
+
     public static void main(String[] args) {
 
         SpringApplication.run(BookOnlineStoreApplication.class, args);
